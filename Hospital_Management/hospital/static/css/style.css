@@ -1,0 +1,28 @@
+@keyframes gradient {
+    0% {
+        background-position: right top;
+    }
+ 100% {
+        background-position: left bottom;
+    }
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-size: 200% 200%;
+    background-image: radial-gradient(circle, rgba(193, 250, 252, 0.308), white, rgba(255, 105, 180, 0.6));
+    animation-name: gradient;
+    animation-duration: 7s;
+    animation-delay: 1ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+img{
+    box-shadow: 10px 0px rgb(0, 0, 0);
+}
+
+.row{
+    margin-top:10px;
+}
